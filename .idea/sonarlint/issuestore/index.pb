@@ -143,3 +143,14 @@ Z
 *app/todos/stores/controls/controlsStore.ts,c/0/c0ea5047861f0659cb55182ef51477ffb8987ec2
 N
 app/todos/stores/todos/Todo.ts,b/3/b393aeb213336517f012da6922b2f78fb1a5f0c3
+`
+0app/todos/common/components/inputs/TextInput.tsx,9/4/94bad58162eaf2da85ed89a5ca1299b22220225d
+d
+4app/todos/common/components/buttons/SubmitButton.tsx,7/a/7a351cc7dd5c6dbb8a263f8e305ea043e5e26059
+t
+Dapp/common/components/inputs/factories/createControlledFormInput.tsx,d/5/d5727039c5dcc2bcf68993892b5e690aab860ec4
+Z
+*app/common/components/inputs/TextInput.tsx,d/8/d84084ef4883354f53da6bac1324a1c629e02613
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

@@ -1,24 +1,45 @@
 import { TextField } from '@mui/material';
 import React from 'react';
 
-type Props = Readonly<{
+export type TextInputProps = Readonly<{
   autoFocus?: boolean;
   className?: string;
+  error?: string | null | undefined;
   inputProps?: object;
   label?: string;
-  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
-  value: string;
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  required?: boolean;
+  value?: string;
 }>;
 
-export const TextInput = ({ autoFocus, className, inputProps, label, onChange, value }: Props) => (
-  <TextField
-    autoFocus={autoFocus}
-    className={className}
-    InputProps={inputProps}
-    fullWidth
-    label={label}
-    onChange={onChange}
-    value={value}
-    variant="standard"
-  />
+// eslint-disable-next-line react/display-name
+export const TextInput = React.forwardRef(
+  (
+    {
+      autoFocus,
+      className,
+      error,
+      inputProps,
+      label,
+      onChange,
+      required,
+      value,
+      ...restOfProps
+    }: TextInputProps,
+    ref
+  ) => (
+    <TextField
+      autoFocus={autoFocus}
+      className={className}
+      error={!!error}
+      helperText={error}
+      InputProps={inputProps}
+      label={label}
+      onChange={onChange}
+      required={required}
+      value={value}
+      variant="standard"
+      {...restOfProps}
+    />
+  )
 );
