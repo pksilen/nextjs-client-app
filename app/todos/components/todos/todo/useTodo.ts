@@ -12,6 +12,6 @@ export const useTodo = (id: string) => {
     isEditable: editableTodoId === id,
     removeTodo: () => removeTodo(id),
     setAsEditableTodo: () => setEditableTodo(id),
-    toggleTodoDone: () => toggleTodoDone
+    toggleTodoDone: () => toggleTodoDone(id)
   };
 };

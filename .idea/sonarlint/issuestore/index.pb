@@ -131,3 +131,15 @@ Z
 *app/todos/components/todos/todo/useTodo.ts,1/4/1439c234327110d0bb80204bdb6f1ef383d3d3f4
 T
 $app/todos/stores/todos/todosStore.ts,6/f/6f68e99a2d4dc91f560886fe7896cbce006711bd
+U
+%app/todos/services/FakeTodoService.ts,c/c/cc9a752ab3ae090e6b54db0e037c72ad8fd58cbf
+Q
+!app/todos/services/TodoService.ts,3/1/311597d6903a13acac0d6a2d7707d13d490d103d
+Z
+*app/todos/services/TodoServiceImpl.test.ts,e/9/e9c0e30cb6aa1f5a7c301ba407f189fa8119d2f5
+U
+%app/todos/services/TodoServiceImpl.ts,1/7/17e36997b69697dc2e5e90f59c0d687b43c465a5
+Z
+*app/todos/stores/controls/controlsStore.ts,c/0/c0ea5047861f0659cb55182ef51477ffb8987ec2
+N
+app/todos/stores/todos/Todo.ts,b/3/b393aeb213336517f012da6922b2f78fb1a5f0c3

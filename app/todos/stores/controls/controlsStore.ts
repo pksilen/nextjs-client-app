@@ -2,7 +2,6 @@ import { PaletteMode } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import { create } from 'zustand';
 
-
 const initialTheme = createTheme({
   palette: {
     mode: 'dark'

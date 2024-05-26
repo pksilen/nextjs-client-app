@@ -5,9 +5,9 @@ import { Controls } from '@/app/todos/components/controls/Controls';
 import { ErrorBoundary } from '@/app/todos/components/errorboundary/ErrorBoundary';
 import { Header } from '@/app/todos/components/header/Header';
 import { useControlsStore } from '@/app/todos/stores/controls/controlsStore';
-import classes from './App.module.scss';
 import { TodosList } from './components/todos/TodosList';
 import { TodosTable } from './components/todos/TodosTable';
+import classes from './page.module.scss';
 
 export default function TodosPage() {
   const theme = useControlsStore((store) => store.theme);

@@ -1,8 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import { create } from 'zustand';
-import { todoService } from 'app/services/FakeTodoService';
+import { todoService } from '@/app/todos/services/FakeTodoService';
 import { Todo } from './Todo';
-
 
 type State = {
   editableTodoId: string | null;

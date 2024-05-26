@@ -1,4 +1,6 @@
-import { Todo } from 'app/stores/todos/Todo';
+'use client';
+
+import { Todo } from '@/app/todos/stores/todos/Todo';
 import { TodoService } from './TodoService';
 
 const isTest = window.location.href.includes('test');
