@@ -1,8 +1,8 @@
 'use client';
 
 import { FieldPath } from 'react-hook-form';
-import { ErrorAlert } from '@/app/userregistration/common/components/stateless/alerts/ErrorAlert';
-import { SubmitButton } from '@/app/userregistration/common/components/stateless/buttons/SubmitButton';
+import { ErrorAlert } from '@/app/todos/common/components/alerts/ErrorAlert';
+import { SubmitButton } from '@/app/todos/common/components/buttons/SubmitButton';
 import {
   TextInput,
   TextInputProps
