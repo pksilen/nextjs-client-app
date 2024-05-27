@@ -10,6 +10,7 @@ export type TextInputProps = Readonly<{
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   required?: boolean;
   value?: string;
+  variant?: 'outlined' | 'standard';
 }>;
 
 // eslint-disable-next-line react/display-name
@@ -24,6 +25,7 @@ export const TextInput = React.forwardRef(
       onChange,
       required,
       value,
+      variant = 'standard',
       ...restOfProps
     }: TextInputProps,
     ref
@@ -38,7 +40,7 @@ export const TextInput = React.forwardRef(
       onChange={onChange}
       required={required}
       value={value}
-      variant="standard"
+      variant={variant}
       {...restOfProps}
     />
   )

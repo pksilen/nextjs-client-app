@@ -10,7 +10,8 @@ import { useUserRegistration } from './useUserRegistration';
 import { UserSchema } from './userSchema';
 
 const ControlledFormTextInput = createControlledFormInput<TextInputProps, UserSchema>(TextInput, {
-  required: true
+  required: true,
+  variant: 'outlined'
 });
 
 export const UserRegistrationForm = () => {
